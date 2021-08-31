@@ -8,10 +8,10 @@ ul.ulnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: auto;
+    width: 500px;
     background-color: #f1f1f1;
-    text-align: left;
     border: 3px solid black;
+    float: right;
 }
 li.linav a{
     display: block;
@@ -19,15 +19,41 @@ li.linav a{
     text-decoration: none;
     padding: 14px 16px;
     text-align: center;
+    font-family: Atkinson Hyperlegible;
+}
+li.linav{
+    display: block;
+    background-color: #dddddd;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    font-family: Atkinson Hyperlegible;
+    font-size: 20px;
 }
 li.linav a.active{
     display: block;
     background-color: rgb(32, 184, 146);
+    color: blue;
     text-decoration: none;
     padding: 14px 16px;
     text-align: center;
 }
 li.linav a:hover{
     background-color: rgba(32, 184, 146, 0.63);
-    color: white
+    color: rgb(00, 0, 255);
+}
+h1{
+    text-align: center;
+    font-family:OCR A;
+    font-size: 70pt;
+}
+p{
+    font-family: Atkinson Hyperlegible;
+}
+a{
+    color: black;
+}
+fieldset{
+    font-family: Atkinson Hyperlegible;
+    font-size: 30px;
 }
