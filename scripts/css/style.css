@@ -12,6 +12,7 @@ ul.ulnav {
     background-color: #f1f1f1;
     border: 3px solid black;
     float: right;
+    box-shadow: 7px 7px;
 }
 li.linav a{
     display: block;
@@ -37,10 +38,17 @@ li.linav a.active{
     text-decoration: none;
     padding: 14px 16px;
     text-align: center;
+    box-shadow: 4px 4px;
 }
 li.linav a:hover{
     background-color: rgba(32, 184, 146, 0.63);
     color: rgb(00, 0, 255);
+    box-shadow: 3px 3px;
+}
+li.linav a.active:hover{
+    background-color: rgba(32, 184, 146, 0.63);
+    color: rgb(00, 0, 255);
+    box-shadow: 4px 4px;
 }
 h1{
     text-align: center;
@@ -76,4 +84,13 @@ span.font1{
     font-family: Atkinson Hyperlegible;
     color: #696969;
     font-weight: bolder;
+}
+@keyframes Test {
+    0%  {background-color: blue;}
+    10% {background-color: red;}
+    30% {background-color: green;}
+    50% {background-color: indigo;}
+    70% {background-color: aqua;}
+    90% {background-color: lightgreen;}
+    100% {background-color: blue;}
 }
