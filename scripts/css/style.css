@@ -67,9 +67,10 @@ p.stuff{
 a{
     color: black;
 }
-fieldset{
+fieldset.fldst{
     font-family: Atkinson Hyperlegible;
     font-size: 30px;
+    background-color: rgba(170, 170, 33, 0.39);
 }
 #page_wrapper{
     border-radius: 5px;
