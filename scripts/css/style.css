@@ -87,11 +87,24 @@ span.font1{
     font-weight: bolder;
 }
 @keyframes Test {
-    0%  {background-color: blue;}
+    0%  {background-color: blue; color: white;}
     10% {background-color: red;}
-    30% {background-color: green;}
+    30% {background-color: green; color: black;}
     50% {background-color: indigo;}
-    70% {background-color: aqua;}
-    90% {background-color: lightgreen;}
-    100% {background-color: blue;}
+    70% {background-color: aqua;color: white;}
+    90% {background-color: lightgreen; color: black;}
+    100% {background-color: blue; color: white;}
+}
+img.dl{
+    width:390px ;
+    padding-bottom: 174px;
+}
+img.mo{
+    width: 400px;
+}
+h1.cool{
+    animation-name: Test;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; 
+    color: white;
 }
